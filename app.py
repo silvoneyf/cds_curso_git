@@ -41,7 +41,8 @@ def main():
 
     create_dataframe_section(df_raw)
 
-    st.dataframeO(df_raw)
+    st.dataframe(df_raw)
+
 
 if __name__ == "__main__":
      main()
